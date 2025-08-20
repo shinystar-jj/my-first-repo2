@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>POLJOY 자기소개</title> <!-- 1. 여기에 본인 이름 넣기 -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- 2. 여기에 style.css 파일 연결하기 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 네비게이션 바 -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <!-- 3. 여기에 본인 이름이나 닉네임 넣기 -->
+            <a class="navbar-brand" href="#">POLIN JOYFUL WORLD</a>
+
+            <div class="navbar-nav ms-auto">
+                <!-- 4. 메뉴 3개 추가하기 (예: About, Skills, Contact) -->
+                <a class="nav-link" href="#about-p">Poly</a>
+                <a class="nav-link" href="#about-j">Joy</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 메인 소개 섹션 -->
+    <section class="hero-section text-center py-5">
+        <div class="container">
+            <!-- 5. 프로필 이미지 src에 본인 사진 URL 넣기 -->
+            <img src="images/main.jpeg" alt="프로필 사진" class="profile-img rounded-circle mb-4">
+
+            <!-- 6. 본인 이름과 한 줄 소개 넣기 -->
+            <h1 class="display-4">안녕하세요!<br>POLIN JOYFUL WORLD<br>폴리와 조이입니다</h1>
+            <p class="lead">폴조이 자랑을 시작해보겠습니다!</p>
+
+            <!-- 7. Bootstrap 버튼 색상 클래스 선택 (btn-primary, btn-success, btn-info 중 선택) -->
+            <a href="#about-p" class="btn btn-primary">더 알고 싶어요</a>
+        </div>
+    </section>
+
+    <!-- About 섹션 -->
+    <section id="about-p" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">About Us</h2>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <!-- 8. 자기소개 3-4줄 작성 -->
+                    <p><span class="badge bg-primary m-1">Poly</span>12살 엘레강스 최강동안 말티즈</p>
+                    <p><span class="badge bg-primary m-1">Poly</span>2024 입양 1주년 파티</p>
+                    <p><span class="badge bg-warning m-1">Joy</span>2살 아이돌 센터 비쥬얼 스페셜 아이</p>
+                    <p><span class="badge bg-warning m-1">Joy</span>똥꼬발랄 달리기 대회 1등</p>
+                    <p><span class="badge bg-black m-1">린린</span>레벨업 중인 폴조이 누니</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills 섹션 -->
+    <section id="skills" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Skills</h2>
+            <div class="row">
+                <!-- 9. 본인의 스킬 3개 작성 -->
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-3">Poly</span>
+                            <h5 class="card-title">최강 동안</h5>
+                            <p class="card-text">12살인지 아무도 몰라요</p>
+                            <div class="skill-item mb-3">
+                                <label>동안력 만랩</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 99%">
+                                        99%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-info mt-3" role="alert">
+                        <strong>목표|</strong> 더 더 어려질거에요!
+                    </div>
+                    <!-- 10. 나머지 2개 카드도 위와 같이 완성하기 -->
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="badge bg-warning mb-3">Joy</span>
+                            <h5 class="card-title">달리기 1등</h5>
+                            <p class="card-text">운동장 뛰뛰 대회 10연승</p>
+                            <div class="skill-item mb-3">
+                                <label>치고 나가기</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 98%">
+                                        99%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-info mt-3" role="alert">
+                        <strong>목표|</strong> 100연승까지 가자!
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <span class="badge bg-dark mb-3">린린</span>
+                            <h5 class="card-title">폴조이 누니</h5>
+                            <p class="card-text">사랑은 지갑에서 나온다</p>
+                            <div class="skill-item mb-3">
+                                <label>돈벌기</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 20%">
+                                        10%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="alert alert-info mt-3" role="alert">
+                        <strong>목표|</strong> 올해안에 서비스 런칭!
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- Projects 섹션 -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">My Projects</h2>
+            <div class="row">
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Homepage</h5>
+                            <p class="card-text">폴리조이 소개</p>
+                            <!-- A. Progress Bar로 스킬 레벨 표현 -->
+                            <div class="projects mb-3">
+                                <label>폴조이 귀여움 널리 알리기</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 98%">
+                                        98%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 10. 나머지 2개 카드도 위와 같이 완성하기 -->
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Website</h5>
+                            <p class="card-text">유기동물 매칭</p>
+                            <!-- A. Progress Bar로 스킬 레벨 표현 -->
+                            <div class="projects mb-3">
+                                <label>유기된 아이들 새가족 찾기</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 20%">
+                                        15%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 text-center mb-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Website</h5>
+                            <p class="card-text">기부</p>
+                            <!-- A. Progress Bar로 스킬 레벨 표현 -->
+                            <div class="projects mb-3">
+                                <label>기버도 테이커도 모두 해피</label>
+                                <div class="progress">
+                                    <div class="progress-bar bg-success" role="progressbar" style="width: 10%">
+                                        5%
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact 섹션 -->
+    <section id="contact" class="py-5 bg-dark text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Contact Us</h2>
+            <!-- 11. 연락처 정보 추가 -->
+            <p>Email: poljoy@gmail.com</p>
+            <p>Blog: blog.naver.com/poljoy_world</p>
+        </div>
+    </section>
+</body>
+
+</html>
